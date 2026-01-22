@@ -1,3 +1,40 @@
+# Malan Development Systems — Developer Portfolio & Business Website
+
+A responsive, modern portfolio website for Malan Development Systems built with React and Tailwind CSS.  
+This repository contains the full source code powering the live site at https://dev.malandevelopmentsystems.co.za/.
+
+## Features
+
+- Fully responsive layout optimized for desktops, tablets, and mobile devices
+- Clean, professional design showcasing services, projects, and contact information
+- Contact form integrated with EmailJS for seamless submissions
+- Reusable React components and scalable file structure
+- Tailwind CSS for rapid styling and utility-first responsiveness
+- SEO-friendly sections and progressive enhancement
+
+## Technologies Used
+
+- React (Vite)
+- Tailwind CSS
+- EmailJS for contact form handling
+- Lucide icons
+- Custom UI components
+
+## Deployment
+
+This site is deployed using a modern hosting solution (e.g., Vercel or Netlify).  
+To deploy your own fork:
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
