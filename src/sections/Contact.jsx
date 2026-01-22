@@ -84,7 +84,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-32 relative overflow-hidden">
+    <section id="contact" className="py-20 md:py-32 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl"></div>
@@ -108,8 +108,8 @@ export const Contact = () => {
             needle.
           </p>
         </div>
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 max-w-5xl mx-auto">
-          <div className="glass p-8 rounded-3xl border border-border/30 animation-fade-in animation-delay-300">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-24 max-w-5xl mx-auto">
+          <div className="glass p-5 md:p-6 lg:p-8 rounded-3xl border border-border/30 animation-fade-in animation-delay-300">
             <form action="" onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label
@@ -196,7 +196,7 @@ export const Contact = () => {
 
           {/* Contact Card */}
           <div className="space-y-6 animation-fade-in animation-delay-400">
-            <div className="glass rounded-3xl p-8">
+            <div className="glass rounded-3xl p-5 md:p-8">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
               </h3>
@@ -212,7 +212,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium">{card.label}</h4>
-                      <p className="text-sm text-muted-foreground">
+                      <p className="text-sm text-muted-foreground break-all">
                         {card.value}
                       </p>
                     </div>
