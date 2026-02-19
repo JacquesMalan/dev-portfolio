@@ -17,7 +17,7 @@ const projects = [
     description: "A secure SaaS dashboard that enables clients to subscribe, log in, and manage their own systems independently. Built to streamline client management while maintaining flexibility, scalability, and ease of use.",
     image: "/projects/Saas App.jpg",
     tags: ["Angular", "Node.js", "MySQL", "Express"],
-    link: "https://www.malandevelopmentsystems.co.za/login",
+    link: "https://platform.malandevelopmentsystems.co.za/sign-in",
     github: "https://github.com/JacquesMalan",
   },
   // {
