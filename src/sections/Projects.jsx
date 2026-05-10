@@ -4,40 +4,70 @@ import React from "react";
 const projects = [
   {
     id: 1,
-    name: "Wedding Website",
-    description: "A digital celebration of love. This custom wedding website shares Maria & Jacques’ story, wedding day schedule, important logistics, and heartfelt messages — bringing friends and family along every step of the journey.",
-    image: "/projects/wedding-site.jpg",
-    tags: ["Angular", "TypeScript", "Cloudinary"],
-    link: "https://malanenmaria.co.za/",
+    name: "SaaS Application",
+    description:
+      "A secure multi-tenant SaaS dashboard that allows clients to subscribe, log in, manage content, and control their own systems independently. Built with scalable backend services, client-specific data handling, authentication, and a flexible dashboard structure designed for long-term growth.",
+    image: "/projects/Saas App.png",
+    tags: ["Angular", "Node.js", "Express", "MySQL", "API"],
+    link: "https://platform.malandevelopmentsystems.co.za/",
     github: "https://github.com/JacquesMalan",
   },
   {
     id: 2,
-    name: "Saas Application",
-    description: "A secure SaaS dashboard that enables clients to subscribe, log in, and manage their own systems independently. Built to streamline client management while maintaining flexibility, scalability, and ease of use.",
-    image: "/projects/Saas App.jpg",
-    tags: ["Angular", "Node.js", "MySQL", "Express"],
-    link: "https://platform.malandevelopmentsystems.co.za/sign-in",
+    name: "Guesthouse Website",
+    description:
+      "A modern hospitality website for Biekiesvlei, powered by a custom API-driven backend. The platform includes dynamic accommodation management, a fully integrated booking system, event features, and responsive mobile-first design for a smooth guest experience.",
+    image: "/projects/biekiesvlei.png",
+    tags: ["React", "TypeScript", "Express", "MySQL", "Booking System"],
+    link: "https://www.biekiesvlei.co.za/",
     github: "https://github.com/JacquesMalan",
   },
-  // {
-  //   id: 3,
-  //   name: "Project Three",
-  //   description: "Description for project three.",
-  //   image: "/path/to/image3.jpg",
-  //   tags: ["Angular", "Express"],
-  //   link: "#",
-  //   github: "https://github.com/JacquesMalan",
-  // },
-  // {
-  //   id: 4,
-  //   name: "Project Four",
-  //   description: "Description for project four.",
-  //   image: "/path/to/image4.jpg",
-  //   tags: ["Svelte", "Django"],
-  //   link: "#",
-  //   github: "https://github.com/JacquesMalan",
-  // },
+  {
+    id: 3,
+    name: "Blogging Website",
+    description:
+      "A Life Designed is a modern blog-focused platform built for clean storytelling, readable content layouts, and a smooth mobile experience. The site includes dynamic article management, category-based content, SEO-friendly structure, and API-powered publishing features.",
+    image: "/projects/a-life-designed.png",
+    tags: ["Angular", "Express", "API", "Blog CMS", "SEO"],
+    link: "https://lines.logicandline.co.za/",
+    github: "https://github.com/JacquesMalan",
+  },
+  {
+    id: 4,
+    name: "Web Design Business Website",
+    description:
+      "Logic & Line is a modern web design business website created to showcase services, portfolio work, and digital solutions. Built with a clean brand identity, responsive layout, SEO foundations, and a professional structure aimed at converting visitors into clients.",
+    image: "/projects/logic-&-line.png",
+    tags: [
+      "Angular",
+      "TypeScript",
+      "SEO",
+      "Responsive Design",
+      "Business Website",
+    ],
+    link: "https://www.logicandline.co.za/",
+    github: "https://github.com/JacquesMalan",
+  },
+  {
+    id: 5,
+    name: "Training Platform",
+    description:
+      "A modern learning management platform built to deliver structured online training and professional development content. The platform reads dynamically from the SaaS application, allowing centralized course management, scalable training delivery, and streamlined learner experiences across devices.",
+    image: "/projects/Sucat-Training.png",
+    tags: ["Angular", "LMS", "SaaS Integration", "Training Platform", "API"],
+    link: "https://www.training.sucat.co.za/",
+    github: "https://github.com/JacquesMalan",
+  },
+  {
+    id: 6,
+    name: "Raffle Ticketing System",
+    description:
+      "A lightweight raffle ticketing application built for fundraising campaigns and event promotions. Users can select available numbers, reserve entries, and submit buyer details through a clean and responsive interface designed for simplicity and speed.",
+    image: "/projects/raffle-game.png",
+    tags: ["React", "JavaScript", "Fundraising", "Responsive Design"],
+    link: "https://sport.logicandline.co.za/",
+    github: "https://github.com/JacquesMalan",
+  },
 ];
 
 export const Projects = () => {
@@ -76,7 +106,6 @@ export const Projects = () => {
                   alt={project.name}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent"></div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-secondary-fg mb-2">

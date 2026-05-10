@@ -2,7 +2,29 @@ import React from "react";
 
 const experiences = [
   {
-    period: "Sept 2023 - Present",
+    period: "Feb 2026 - Present",
+    role: "Software Engineer (Frontend)",
+    company: "Finex Technologies",
+    description:
+      "Developing and maintaining frontend functionality across multiple digital platforms and products within an AI-augmented development environment. Responsible for translating business and design requirements into scalable, maintainable user-facing applications while contributing to ongoing platform stability, performance improvements, and continuous feature delivery. Working closely with cross-functional teams to support modern frontend architecture and technical growth.",
+    technologies: [
+      "Angular",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "SCSS",
+      "Node.js",
+      "API Integration",
+      "Git",
+      "GitHub",
+      "Agile",
+      "AI-assisted Development",
+    ],
+    current: true,
+  },
+  {
+    period: "Sept 2023 - Feb 2026",
     role: "Software Developer",
     company: "TFM (Travel Find Me)",
     description:
@@ -21,7 +43,7 @@ const experiences = [
       "GitHub",
       "Agile",
     ],
-    current: true,
+    current: false,
   },
   {
     period: "Apr 2022 - Sept 2023",

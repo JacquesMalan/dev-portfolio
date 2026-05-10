@@ -67,7 +67,7 @@ export const Hero = () => {
             <div className="animation-fade-in">
               <span className="inline-flex items-center rounded-full gap-2 glass text-sm text-primary">
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-                <span>Software Developer • FrontEnd</span>
+                <span>Software Engineer • Full Stack</span>
               </span>
             </div>
 
