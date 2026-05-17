@@ -2,7 +2,7 @@ import React from "react";
 
 const experiences = [
   {
-    period: "Feb 2026 - Present",
+    period: "Mar 2026 - Present",
     role: "Software Engineer (Frontend)",
     company: "Finex Technologies",
     description:
